@@ -1,0 +1,40 @@
+div.container {
+    padding: 0 2em;
+    display: grid;
+    grid-template-areas:
+        'menu main main main main main';
+    grid-template-columns: max-content auto;
+}
+
+nav.menu {
+    grid-area: menu;
+    background: #FFFFFF;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 6px;
+    min-width: 12em;
+}
+
+nav.menu ul li {
+    margin-bottom: 1em;
+}
+
+nav.menu ul li:last-child {
+    margin-bottom: 0;
+}
+
+nav.menu ul li:hover {
+    color: var(--color-primary);
+}
+
+main.main {
+    grid-area: main;
+    background: #FFFFFF;
+    margin: 2em;
+    padding: 2em;
+    border-radius: 6px;
+}
+
+main.main h1 {
+    margin-bottom: 1em;
+}

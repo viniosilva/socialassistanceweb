@@ -1,0 +1,48 @@
+div.table {
+    overflow-x: auto;
+    width: 100%;
+}
+
+div.table table {
+    border-collapse: collapse;
+    min-width: 22em;
+    width: 100%;
+}
+
+div.table table tbody th {
+    color: var(--color-primary);
+    font-weight: normal;
+}
+
+div.table table th,
+div.table table td {
+    border-bottom: 1px solid #E9EBEC;
+    padding: 0.6em 1.2em;
+    text-align: left;
+    min-width: 10em;
+}
+
+div.table table tfoot tr td {
+    text-align: right;
+    border: none;
+}
+
+div.table table tfoot tr td button {
+    width: 2em;
+    height: 2.2em;
+    margin: 0 0.15em;
+    border: 1px solid var(--color-background);
+    border-radius: var(--border-radius);
+    background: none;
+    color: var(--color-primary)
+}
+
+div.table table tfoot tr td button:disabled {
+    color: var(--color-background);
+}
+
+div.table table tfoot tr td button.selected {
+    background: var(--color-primary);
+    color: var(--color-background);
+    border-color: #D30000;
+}

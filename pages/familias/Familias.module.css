@@ -1,0 +1,15 @@
+article.container {
+    display: grid;
+    grid-template-areas:
+        "options"
+        "table";
+}
+
+article.container div.options {
+    grid-area: options;
+}
+
+
+article.container .table {
+    grid-area: table;
+}
