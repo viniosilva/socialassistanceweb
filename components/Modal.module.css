@@ -1,0 +1,41 @@
+div.background {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.background div.modal {
+  background: #ffffff;
+  margin: 10% auto;
+  padding: 2em;
+  border: 1px solid var(--color-background);
+  border-radius: var(--border-radius);
+  width: 80%;
+}
+
+div.background div.modal div.modalHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+
+div.background div.modal button.close {
+  border: none;
+  background: none;
+  color: #aaaaaa;
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+div.background div.modal button.close:hover,
+div.background div.modal button.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}

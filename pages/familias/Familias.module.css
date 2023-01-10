@@ -9,6 +9,10 @@ article.container div.options {
     grid-area: options;
 }
 
+article.container div.options button {
+    cursor: pointer;
+}
+
 
 article.container .table {
     grid-area: table;

@@ -1,9 +1,10 @@
 :root {
   --font: sans-serif;
-  --color-background: #E9EBEC;
+  --color-background: #e9ebec;
   --color-primary: red;
   --border-radius: 6px;
   background: var(--color-background);
+  color: #000000;
 }
 
 * {
