@@ -1,7 +1,7 @@
 :root {
   --font: sans-serif;
   --color-background: #e9ebec;
-  --color-primary: red;
+  --color-primary: blue;
   --border-radius: 6px;
   background: var(--color-background);
   color: #000000;

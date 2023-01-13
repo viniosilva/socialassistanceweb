@@ -19,7 +19,7 @@ div.table table td {
     border-bottom: 1px solid #E9EBEC;
     padding: 0.6em 1.2em;
     text-align: left;
-    min-width: 10em;
+    min-width: 6em;
 }
 
 div.table table tfoot tr td {

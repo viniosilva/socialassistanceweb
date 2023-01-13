@@ -1,0 +1,11 @@
+span.barMenu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+span.barMenu div.bar {
+  width: 2em;
+  height: 5px;
+  background-color: #333333;
+  margin: 6px 0;
+}
